@@ -164,9 +164,9 @@ Key contributions:
 
 ## Author
 
-**ER-RAHOUTI ACHRAF**
+**IMLOUL ADAM**
 
-- GitHub: [@achrafS133](https://github.com/achrafS133)
+- GitHub: [@adamfutur](https://github.com/adamfutur)
 
 ## License
 

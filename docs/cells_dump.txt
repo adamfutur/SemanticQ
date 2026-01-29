@@ -1,0 +1,82 @@
+
+--- CELL 11 SOURCE ---
+def evaluate_model(y_true, y_pred, name):
+    print(f"\nEvaluation results for {name}:")
+    print(classification_report(y_true, y_pred, target_names=config['labels']))
+    
+    cm = confusion_matrix(y_true, y_pred)
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
+                xticklabels=config['labels'], yticklabels=config['labels'])
+    plt.title(f"Confusion Matrix - {name}")
+    plt.ylabel('True Label')
+    plt.xlabel('Predicted Label')
+    plt.show()
+
+# FastText Predictions
+ft_preds = clf.predict(X_test_ft)
+evaluate_model(y_test, ft_preds, "Semantic-FastText")
+
+# BERT Predictions
+test_ds = BertDataset(test_df['clean_text'].tolist(), y_test, tokenizer, config['bert']['max_length'])
+test_loader = DataLoader(test_ds, batch_size=config['bert']['batch_size'])
+
+bert_model.eval()
+bert_preds = []
+with torch.no_grad():
+    for batch in tqdm(test_loader, desc="BERT Inference"):
+        input_ids = batch['input_ids'].to(device)
+        attention_mask = batch['attention_mask'].to(device)
+        outputs = bert_model(input_ids, attention_mask=attention_mask)
+        preds = torch.argmax(outputs.logits, dim=1).cpu().numpy()
+        bert_preds.extend(preds)
+
+evaluate_model(y_test, np.array(bert_preds), "Semantic-BERT")
+--- CELL 13 SOURCE ---
+results = {
+    'Model': ['Semantic-FastText', 'Semantic-BERT'],
+    'Accuracy': [
+        accuracy_score(y_test, ft_preds),
+        accuracy_score(y_test, bert_preds)
+    ],
+    'F1 (Weighted)': [
+        f1_score(y_test, ft_preds, average='weighted'),
+        f1_score(y_test, bert_preds, average='weighted')
+    ]
+}
+
+df_res = pd.DataFrame(results)
+display(df_res)
+
+df_res.plot(x='Model', kind='bar', figsize=(10, 6))
+plt.ylim(0, 1)
+plt.ylabel('Score')
+plt.title("Accuracy & F1-Score Comparison")
+plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.show()
+--- CELL 15 SOURCE ---
+def predict_question(question):
+    clean_q = preprocessor.clean_text(question)
+    
+    # FastText Prediction
+    vec = get_sentence_vector(clean_q, ft_model).reshape(1, -1)
+    ft_idx = clf.predict(vec)[0]
+    ft_prob = np.max(clf.predict_proba(vec))
+    ft_label = id_to_label[ft_idx]
+    
+    # BERT Prediction
+    inputs = tokenizer(clean_q, return_tensors='pt', truncation=True, padding='max_length', max_length=128).to(device)
+    with torch.no_grad():
+        outputs = bert_model(**inputs)
+        bert_idx = torch.argmax(outputs.logits, dim=1).item()
+        bert_prob = torch.softmax(outputs.logits, dim=1).max().item()
+    bert_label = id_to_label[bert_idx]
+    
+    print(f"\nQuestion: \"{question}\"")
+    print(f"  → FastText: {ft_label} ({ft_prob:.2%})")
+    print(f"  → BERT:     {bert_label} ({bert_prob:.2%})")
+
+# Sample tests
+predict_question("Can you describe the components of an atom?")
+predict_question("How would you categorize the main themes of the story?")
+predict_question("Create a hypothetical scenario where the law of gravity is reversed.")

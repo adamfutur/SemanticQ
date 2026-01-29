@@ -1,0 +1,19 @@
+question,label,clean_text,label_id
+Explain how plants make food through photosynthesis.,Understand,explain_ROOT ROOT how_advmod advmod plant_nsubj nsubj make_ccomp ccomp food_dobj dobj through_prep prep photosynthesis_pobj pobj,5
+Examine the factors that led to the extinction of dinosaurs.,Analyze,examine_ROOT ROOT the_det det factor_dobj dobj that_nsubj nsubj lead_relcl relcl to_prep prep the_det det extinction_pobj pobj of_prep prep dinosaur_pobj pobj,0
+Demonstrate proper laboratory safety procedures.,Apply,demonstrate_ROOT ROOT proper_amod amod laboratory_compound compound safety_compound compound procedure_dobj dobj,1
+Analyze the structure of DNA.,Analyze,analyze_ROOT ROOT the_det det structure_dobj dobj of_prep prep dna_pobj pobj,0
+Determine the best approach to solve this engineering problem.,Evaluate,determine_ROOT ROOT the_det det good_amod amod approach_dobj dobj to_aux aux solve_relcl relcl this_det det engineering_compound compound problem_dobj dobj,3
+Develop an algorithm to optimize delivery routes.,Create,develop_ROOT ROOT an_det det algorithm_dobj dobj to_aux aux optimize_relcl relcl delivery_compound compound route_dobj dobj,2
+Solve this word problem using multiplication.,Apply,solve_ROOT ROOT this_det det word_compound compound problem_dobj dobj use_advcl advcl multiplication_dobj dobj,1
+What are the three states of matter?,Remember,what_attr attr be_ROOT ROOT the_det det three_nummod nummod state_nsubj nsubj of_prep prep matter_pobj pobj,4
+Compose an original piece of music.,Create,compose_ROOT ROOT an_det det original_amod amod piece_dobj dobj of_prep prep music_pobj pobj,2
+Use your knowledge of grammar to correct these sentences.,Apply,use_ROOT ROOT your_poss poss knowledge_dobj dobj of_prep prep grammar_pobj pobj to_aux aux correct_xcomp xcomp these_det det sentence_dobj dobj,1
+Create a new recipe combining different cuisines.,Create,create_ROOT ROOT a_det det new_amod amod recipe_dobj dobj combine_acl acl different_amod amod cuisine_dobj dobj,2
+Assess the credibility of the speaker's claims.,Evaluate,assess_ROOT ROOT the_det det credibility_nsubj nsubj of_prep prep the_det det speaker_pobj pobj claim_ccomp ccomp,3
+Examine the relationships between characters in the story.,Analyze,examine_ROOT ROOT the_det det relationship_dobj dobj between_prep prep character_pobj pobj in_prep prep the_det det story_pobj pobj,0
+Describe the water cycle in your own words.,Understand,describe_ROOT ROOT the_det det water_compound compound cycle_dobj dobj in_prep prep your_poss poss own_amod amod word_pobj pobj,5
+Define the word 'democracy'.,Remember,define_ROOT ROOT the_det det word_compound compound democracy_dobj dobj,4
+Name the first president of the United States.,Remember,name_ROOT ROOT the_det det first_amod amod president_dobj dobj of_prep prep the_det det united_compound compound states_pobj pobj,4
+Explain the difference between weather and climate.,Understand,explain_ROOT ROOT the_det det difference_dobj dobj between_prep prep weather_pobj pobj and_cc cc climate_conj conj,5
+Critique the author's argument in this essay.,Evaluate,critique_ROOT ROOT the_det det author_nsubj nsubj argument_ccomp ccomp in_prep prep this_det det essay_pobj pobj,3

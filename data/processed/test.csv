@@ -1,0 +1,19 @@
+question,label,clean_text,label_id
+Explain the concept of supply and demand.,Understand,explain_ROOT ROOT the_det det concept_dobj dobj of_prep prep supply_pobj pobj and_cc cc demand_conj conj,5
+Calculate the perimeter of a rectangle with length 8 and width 5.,Apply,calculate_ROOT ROOT the_det det perimeter_dobj dobj of_prep prep a_det det rectangle_pobj pobj with_prep prep length_pobj pobj 8_nummod nummod and_cc cc width_conj conj 5_npadvmod npadvmod,1
+Assess the reliability of this news source.,Evaluate,assess_ROOT ROOT the_det det reliability_dobj dobj of_prep prep this_det det news_compound compound source_pobj pobj,3
+Create an innovative product to solve an everyday problem.,Create,create_ROOT ROOT an_det det innovative_amod amod product_dobj dobj to_aux aux solve_relcl relcl an_det det everyday_amod amod problem_dobj dobj,2
+Analyze the author's use of literary devices.,Analyze,analyze_ROOT ROOT the_det det author_nsubj nsubj use_ccomp ccomp of_prep prep literary_amod amod device_pobj pobj,0
+Compare different approaches to solving this problem.,Analyze,compare_ROOT ROOT different_amod amod approach_dobj dobj to_prep prep solve_pcomp pcomp this_det det problem_dobj dobj,0
+Judge whether the experiment was conducted properly.,Evaluate,judge_ROOT ROOT whether_mark mark the_det det experiment_nsubjpass nsubjpass be_auxpass auxpass conduct_ccomp ccomp properly_advmod advmod,3
+Define 'hypothesis'.,Remember,define_ROOT ROOT hypothesis_dobj dobj,4
+Design a new public transportation system for your city.,Create,design_ROOT ROOT a_det det new_amod amod public_amod amod transportation_compound compound system_dobj dobj for_prep prep your_poss poss city_pobj pobj,2
+Summarize the plot of the novel you just read.,Understand,summarize_ROOT ROOT the_det det plot_dobj dobj of_prep prep the_det det novel_pobj pobj you_nsubj nsubj just_advmod advmod read_relcl relcl,5
+Summarize the key points of the lecture.,Understand,summarize_ROOT ROOT the_det det key_amod amod point_dobj dobj of_prep prep the_det det lecture_pobj pobj,5
+Use the formula to convert 100 degrees Fahrenheit to Celsius.,Apply,use_ROOT ROOT the_det det formula_dobj dobj to_aux aux convert_xcomp xcomp 100_nummod nummod degree_dobj dobj fahrenheit_dobj dobj to_prep prep celsius_pobj pobj,1
+Name three types of rocks.,Remember,name_ROOT ROOT three_nummod nummod type_dobj dobj of_prep prep rock_pobj pobj,4
+Compose a persuasive speech on environmental protection.,Create,compose_ROOT ROOT a_det det persuasive_amod amod speech_dobj dobj on_prep prep environmental_amod amod protection_pobj pobj,2
+Critique the logic of the argument presented.,Evaluate,critique_ROOT ROOT the_det det logic_dobj dobj of_prep prep the_det det argument_pobj pobj present_ccomp ccomp,3
+Analyze the patterns in this mathematical sequence.,Analyze,analyze_ROOT ROOT the_det det pattern_dobj dobj in_prep prep this_det det mathematical_amod amod sequence_pobj pobj,0
+What is 2 + 2?,Remember,what_attr attr be_ROOT ROOT 2_compound compound 2_attr attr,4
+Apply programming concepts to write a simple function.,Apply,apply_ROOT ROOT programming_compound compound concept_dobj dobj to_aux aux write_advcl advcl a_det det simple_amod amod function_dobj dobj,1

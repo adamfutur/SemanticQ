@@ -1,0 +1,18 @@
+{
+  "label_to_id": {
+    "Analyze": 0,
+    "Apply": 1,
+    "Create": 2,
+    "Evaluate": 3,
+    "Remember": 4,
+    "Understand": 5
+  },
+  "id_to_label": {
+    "0": "Analyze",
+    "1": "Apply",
+    "2": "Create",
+    "3": "Evaluate",
+    "4": "Remember",
+    "5": "Understand"
+  }
+}

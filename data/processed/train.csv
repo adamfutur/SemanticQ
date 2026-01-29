@@ -1,0 +1,85 @@
+question,label,clean_text,label_id
+Calculate the mean of this data set.,Apply,calculate_ROOT ROOT the_det det mean_dobj dobj of_prep prep this_det det datum_pobj pobj set_ccomp ccomp,1
+Explain why the sky appears blue.,Understand,explain_ROOT ROOT why_advmod advmod the_det det sky_nsubj nsubj appear_ccomp ccomp blue_advcl advcl,5
+Determine which solution is most cost-effective.,Evaluate,determine_ROOT ROOT which_det det solution_nsubj nsubj be_ccomp ccomp most_advmod advmod costeffective_acomp acomp,3
+Critique the design of this scientific study.,Evaluate,critique_ROOT ROOT the_det det design_dobj dobj of_prep prep this_det det scientific_amod amod study_pobj pobj,3
+What is the formula for calculating area of a rectangle?,Remember,what_attr attr be_ROOT ROOT the_det det formula_nsubj nsubj for_prep prep calculate_pcomp pcomp area_dobj dobj of_prep prep a_det det rectangle_pobj pobj,4
+Use statistical methods to analyze survey results.,Apply,use_ROOT ROOT statistical_amod amod method_dobj dobj to_aux aux analyze_xcomp xcomp survey_compound compound result_dobj dobj,1
+Analyze the cultural influences on this artwork.,Analyze,analyze_ROOT ROOT the_det det cultural_amod amod influence_dobj dobj on_prep prep this_det det artwork_pobj pobj,0
+Apply cooking techniques to prepare a simple meal.,Apply,apply_ROOT ROOT cooking_compound compound technique_dobj dobj to_aux aux prepare_advcl advcl a_det det simple_amod amod meal_dobj dobj,1
+Summarize the main events of the French Revolution.,Understand,summarize_ROOT ROOT the_det det main_amod amod event_dobj dobj of_prep prep the_det det french_amod amod revolution_pobj pobj,5
+Use the Pythagorean theorem to find the missing side.,Apply,use_ROOT ROOT the_det det pythagorean_dobj dobj theorem_dobj dobj to_aux aux find_xcomp xcomp the_det det miss_amod amod side_dobj dobj,1
+Describe the relationship between predator and prey.,Understand,describe_ROOT ROOT the_det det relationship_dobj dobj between_prep prep predator_pobj pobj and_cc cc prey_conj conj,5
+What year did World War II end?,Remember,what_det det year_dobj dobj do_aux aux world_compound compound war_compound compound ii_compound compound end_ROOT ROOT,4
+Solve this algebra problem using the quadratic formula.,Apply,solve_ROOT ROOT this_det det algebra_compound compound problem_dobj dobj use_advcl advcl the_det det quadratic_amod amod formula_dobj dobj,1
+Evaluate the success of the government's economic policy.,Evaluate,evaluate_ROOT ROOT the_det det success_dobj dobj of_prep prep the_det det government_nmod nmod economic_amod amod policy_pobj pobj,3
+Break down the components of a successful marketing campaign.,Analyze,break_ROOT ROOT down_prt prt the_det det component_dobj dobj of_prep prep a_det det successful_amod amod marketing_compound compound campaign_pobj pobj,0
+Describe what happens during an earthquake.,Understand,describe_ROOT ROOT what_nsubj nsubj happen_ccomp ccomp during_prep prep an_det det earthquake_pobj pobj,5
+Apply the principles of first aid to treat a burn.,Apply,apply_ROOT ROOT the_det det principle_dobj dobj of_prep prep first_amod amod aid_pobj pobj to_aux aux treat_advcl advcl a_det det burn_dobj dobj,1
+What is the largest planet in our solar system?,Remember,what_attr attr be_ROOT ROOT the_det det large_amod amod planet_nsubj nsubj in_prep prep our_poss poss solar_amod amod system_pobj pobj,4
+Interpret the meaning of this poem.,Understand,interpret_ROOT ROOT the_det det meaning_dobj dobj of_prep prep this_det det poem_pobj pobj,5
+Develop a marketing strategy for a new product.,Create,develop_ROOT ROOT a_det det marketing_compound compound strategy_dobj dobj for_prep prep a_det det new_amod amod product_pobj pobj,2
+List the primary colors.,Remember,list_ROOT ROOT the_det det primary_amod amod color_dobj dobj,4
+Define the term 'ecosystem'.,Remember,define_ROOT ROOT the_det det term_compound compound ecosystem_dobj dobj,4
+What is the capital city of Japan?,Remember,what_attr attr be_ROOT ROOT the_det det capital_compound compound city_nsubj nsubj of_prep prep japan_pobj pobj,4
+Create an original piece of artwork expressing a theme.,Create,create_ROOT ROOT an_det det original_amod amod piece_dobj dobj of_prep prep artwork_pobj pobj express_acl acl a_det det theme_dobj dobj,2
+Apply Newton's laws to explain why a ball falls.,Apply,apply_ROOT ROOT newton_compound compound law_dobj dobj to_aux aux explain_advcl advcl why_advmod advmod a_det det ball_nsubj nsubj fall_ccomp ccomp,1
+What is the boiling point of water in Celsius?,Remember,what_attr attr be_ROOT ROOT the_det det boiling_compound compound point_nsubj nsubj of_prep prep water_pobj pobj in_prep prep celsius_pobj pobj,4
+List the steps of the scientific method.,Remember,list_ROOT ROOT the_det det step_dobj dobj of_prep prep the_det det scientific_amod amod method_pobj pobj,4
+Analyze the causes and effects of pollution.,Analyze,analyze_ROOT ROOT the_det det cause_dobj dobj and_cc cc effect_conj conj of_prep prep pollution_pobj pobj,0
+Apply the rules of debate to construct an argument.,Apply,apply_ROOT ROOT the_det det rule_dobj dobj of_prep prep debate_pobj pobj to_aux aux construct_advcl advcl an_det det argument_dobj dobj,1
+Design an experiment to test the effect of light on plant growth.,Create,design_ROOT ROOT an_det det experiment_dobj dobj to_aux aux test_relcl relcl the_det det effect_dobj dobj of_prep prep light_pobj pobj on_prep prep plant_compound compound growth_pobj pobj,2
+Describe how sound travels through air.,Understand,describe_ROOT ROOT how_advmod advmod sound_nsubj nsubj travel_ccomp ccomp through_prep prep air_pobj pobj,5
+Explain how vaccines help prevent disease.,Understand,explain_ROOT ROOT how_advmod advmod vaccine_nsubj nsubj help_aux aux prevent_ccomp ccomp disease_dobj dobj,5
+Interpret the symbolism in the painting.,Understand,interpret_ROOT ROOT the_det det symbolism_dobj dobj in_prep prep the_det det painting_pobj pobj,5
+Compare different economic systems.,Analyze,compare_ROOT ROOT different_amod amod economic_amod amod system_dobj dobj,0
+Compare the methods used by different researchers.,Analyze,compare_ROOT ROOT the_det det method_dobj dobj use_acl acl by_agent agent different_amod amod researcher_pobj pobj,0
+Interpret the data shown in this graph.,Understand,interpret_ROOT ROOT the_det det datum_dobj dobj show_acl acl in_prep prep this_det det graph_pobj pobj,5
+Calculate the compound interest on a $1000 investment.,Apply,calculate_ROOT ROOT the_det det compound_compound compound interest_dobj dobj on_prep prep a_det det 1000_nummod nummod investment_pobj pobj,1
+Describe the greenhouse effect.,Understand,describe_ROOT ROOT the_det det greenhouse_compound compound effect_dobj dobj,5
+Judge the ethical implications of genetic engineering.,Evaluate,judge_ROOT ROOT the_det det ethical_amod amod implication_dobj dobj of_prep prep genetic_amod amod engineering_pobj pobj,3
+Identify the chemical symbol for water.,Remember,identify_ROOT ROOT the_det det chemical_amod amod symbol_dobj dobj for_prep prep water_pobj pobj,4
+Design an educational game to teach history.,Create,design_ROOT ROOT an_det det educational_amod amod game_dobj dobj to_aux aux teach_advcl advcl history_dobj dobj,2
+Create a model to predict weather patterns.,Create,create_ROOT ROOT a_det det model_dobj dobj to_aux aux predict_relcl relcl weather_compound compound pattern_dobj dobj,2
+Evaluate the effectiveness of online learning compared to traditional classrooms.,Evaluate,evaluate_ROOT ROOT the_det det effectiveness_dobj dobj of_prep prep online_amod amod learning_pobj pobj compare_prep prep to_prep prep traditional_amod amod classroom_pobj pobj,3
+What organ pumps blood through the body?,Remember,what_nsubj nsubj organ_nsubj nsubj pump_ROOT ROOT blood_dobj dobj through_prep prep the_det det body_pobj pobj,4
+Assess the quality of evidence in this research paper.,Evaluate,assess_ROOT ROOT the_det det quality_dobj dobj of_prep prep evidence_pobj pobj in_prep prep this_det det research_compound compound paper_pobj pobj,3
+Evaluate which hypothesis best explains the observations.,Evaluate,evaluate_ROOT ROOT which_det det hypothesis_nsubj nsubj well_advmod advmod explain_ccomp ccomp the_det det observation_dobj dobj,3
+Explain why exercise is important for health.,Understand,explain_ROOT ROOT why_advmod advmod exercise_nsubj nsubj be_ccomp ccomp important_acomp acomp for_prep prep health_pobj pobj,5
+Explain how a computer processor works.,Understand,explain_ROOT ROOT how_advmod advmod a_det det computer_compound compound processor_nsubj nsubj work_ccomp ccomp,5
+Write an original short story set in the future.,Create,write_ROOT ROOT an_det det original_amod amod short_amod amod story_dobj dobj set_acl acl in_prep prep the_det det future_pobj pobj,2
+Analyze the causes of climate change.,Analyze,analyze_ROOT ROOT the_det det cause_dobj dobj of_prep prep climate_compound compound change_pobj pobj,0
+Evaluate the effectiveness of this teaching method.,Evaluate,evaluate_ROOT ROOT the_det det effectiveness_dobj dobj of_prep prep this_det det teaching_compound compound method_pobj pobj,3
+Assess whether the conclusion follows from the evidence.,Evaluate,assess_ROOT ROOT whether_mark mark the_det det conclusion_nsubj nsubj follow_ccomp ccomp from_prep prep the_det det evidence_pobj pobj,3
+Evaluate the pros and cons of nuclear energy.,Evaluate,evaluate_ROOT ROOT the_det det pro_dobj dobj and_cc cc con_conj conj of_prep prep nuclear_amod amod energy_pobj pobj,3
+Name the continents.,Remember,name_ROOT ROOT the_det det continent_dobj dobj,4
+Create a business plan for a sustainable company.,Create,create_ROOT ROOT a_det det business_compound compound plan_dobj dobj for_prep prep a_det det sustainable_amod amod company_pobj pobj,2
+Judge the artistic merit of this performance.,Evaluate,judge_ROOT ROOT the_det det artistic_amod amod merit_dobj dobj of_prep prep this_det det performance_pobj pobj,3
+Examine the impact of social media on communication.,Analyze,examine_ROOT ROOT the_det det impact_dobj dobj of_prep prep social_amod amod medium_pobj pobj on_prep prep communication_pobj pobj,0
+Develop a new method for water purification.,Create,develop_ROOT ROOT a_det det new_amod amod method_dobj dobj for_prep prep water_compound compound purification_pobj pobj,2
+Apply the steps of the scientific method to design an experiment.,Apply,apply_ROOT ROOT the_det det step_dobj dobj of_prep prep the_det det scientific_amod amod method_pobj pobj to_aux aux design_advcl advcl an_det det experiment_dobj dobj,1
+What is the capital of France?,Remember,what_attr attr be_ROOT ROOT the_det det capital_nsubj nsubj of_prep prep france_pobj pobj,4
+Use persuasive writing techniques in your essay.,Apply,use_ROOT ROOT persuasive_amod amod write_xcomp xcomp technique_dobj dobj in_prep prep your_poss poss essay_pobj pobj,1
+Examine the factors affecting plant growth.,Analyze,examine_ROOT ROOT the_det det factor_dobj dobj affect_acl acl plant_compound compound growth_dobj dobj,0
+Use map skills to determine the distance between two cities.,Apply,use_ROOT ROOT map_compound compound skill_dobj dobj to_aux aux determine_xcomp xcomp the_det det distance_dobj dobj between_prep prep two_nummod nummod city_pobj pobj,1
+Design an experiment to investigate animal behavior.,Create,design_ROOT ROOT an_det det experiment_dobj dobj to_aux aux investigate_relcl relcl animal_compound compound behavior_dobj dobj,2
+Analyze the historical context of this document.,Analyze,analyze_ROOT ROOT the_det det historical_amod amod context_dobj dobj of_prep prep this_det det document_pobj pobj,0
+Compare the characteristics of different types of government.,Analyze,compare_ROOT ROOT the_det det characteristic_dobj dobj of_prep prep different_amod amod type_pobj pobj of_prep prep government_pobj pobj,0
+Compare and contrast the American and French Revolutions.,Analyze,compare_ROOT ROOT and_cc cc contrast_conj conj the_det det american_amod amod and_cc cc french_conj conj revolution_dobj dobj,0
+Examine the evidence presented in the argument.,Analyze,examine_ROOT ROOT the_det det evidence_dobj dobj present_acl acl in_prep prep the_det det argument_pobj pobj,0
+Judge the historical significance of this event.,Evaluate,judge_ROOT ROOT the_det det historical_amod amod significance_dobj dobj of_prep prep this_det det event_pobj pobj,3
+Define photosynthesis.,Remember,define_ROOT ROOT photosynthesis_dobj dobj,4
+Develop a plan to improve community health.,Create,develop_ROOT ROOT a_det det plan_dobj dobj to_aux aux improve_acl acl community_compound compound health_dobj dobj,2
+Assess the sustainability of current agricultural practices.,Evaluate,assess_ROOT ROOT the_det det sustainability_dobj dobj of_prep prep current_amod amod agricultural_amod amod practice_pobj pobj,3
+Design a solution to reduce plastic waste in the ocean.,Create,design_ROOT ROOT a_det det solution_dobj dobj to_aux aux reduce_relcl relcl plastic_amod amod waste_dobj dobj in_prep prep the_det det ocean_pobj pobj,2
+Name the author of Romeo and Juliet.,Remember,name_ROOT ROOT the_det det author_dobj dobj of_prep prep romeo_pobj pobj and_cc cc juliet_conj conj,4
+Demonstrate how to balance a chemical equation.,Apply,demonstrate_ROOT ROOT how_advmod advmod to_aux aux balance_xcomp xcomp a_det det chemical_compound compound equation_dobj dobj,1
+Evaluate the environmental impact of deforestation.,Evaluate,evaluate_ROOT ROOT the_det det environmental_amod amod impact_dobj dobj of_prep prep deforestation_pobj pobj,3
+Develop a new theory to explain the phenomenon.,Create,develop_ROOT ROOT a_det det new_amod amod theory_dobj dobj to_aux aux explain_advcl advcl the_det det phenomenon_dobj dobj,2
+Design a building that maximizes energy efficiency.,Create,design_ROOT ROOT a_det det building_dobj dobj that_nsubj nsubj maximize_relcl relcl energy_compound compound efficiency_dobj dobj,2
+Examine the relationship between diet and health.,Analyze,examine_ROOT ROOT the_det det relationship_dobj dobj between_prep prep diet_pobj pobj and_cc cc health_conj conj,0
+Describe the process of evaporation.,Understand,describe_ROOT ROOT the_det det process_dobj dobj of_prep prep evaporation_pobj pobj,5
+Describe how a battery works.,Understand,describe_ROOT ROOT how_advmod advmod a_det det battery_compound compound work_ccomp ccomp,5
+Compare the advantages and disadvantages of renewable energy.,Analyze,compare_ROOT ROOT the_det det advantage_dobj dobj and_cc cc disadvantage_conj conj of_prep prep renewable_amod amod energy_pobj pobj,0
+Demonstrate how to use a microscope properly.,Apply,demonstrate_ROOT ROOT how_advmod advmod to_aux aux use_xcomp xcomp a_det det microscope_dobj dobj properly_advmod advmod,1
+Develop a new app to help students learn mathematics.,Create,develop_ROOT ROOT a_det det new_amod amod app_dobj dobj to_aux aux help_advcl advcl student_nsubj nsubj learn_ccomp ccomp mathematic_dobj dobj,2

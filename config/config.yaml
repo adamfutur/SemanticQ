@@ -1,0 +1,67 @@
+# Configuration for Bloom's Taxonomy Classifier
+
+# Data paths
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  splits_dir: "data/splits"
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+# Bloom's Taxonomy levels
+labels:
+  - "Remember"
+  - "Understand"
+  - "Apply"
+  - "Analyze"
+  - "Evaluate"
+  - "Create"
+
+# Preprocessing
+preprocessing:
+  lowercase: true
+  remove_punctuation: true
+  remove_stopwords: false # Keep for better context
+  lemmatize: true
+  min_word_length: 2
+  use_semantic_parsing: true # Upgrade for better performance as per research paper
+
+# FastText configuration
+fasttext:
+  vector_size: 100
+  window: 5
+  min_count: 1
+  epochs: 50
+  model_path: "models/fasttext/fasttext_model.bin"
+
+# Classifier (SVM or MLP)
+classifier:
+  type: "svm" # "svm" or "mlp"
+  svm:
+    kernel: "rbf"
+    C: 1.0
+    gamma: "scale"
+  mlp:
+    hidden_layers: [256, 128]
+    dropout: 0.3
+    epochs: 100
+    batch_size: 32
+    learning_rate: 0.001
+
+# BERT configuration (Based on Research Paper - BERT-Large)
+bert:
+  model_name: "bert-large-uncased" # 24 transformer blocks, 16 attention heads, 1024 hidden
+  max_length: 512 # Paper uses 512 max tokens
+  batch_size: 8 # Reduced for BERT-Large memory requirements
+  epochs: 5
+  learning_rate: 2e-5
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  model_path: "models/bert"
+
+# Evaluation
+evaluation:
+  metrics: ["accuracy", "precision", "recall", "f1"]
+  average: "weighted"
+  confusion_matrix: true
